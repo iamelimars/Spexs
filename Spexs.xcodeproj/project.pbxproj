@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17F1672D647D3BBCF4EAE6B0 /* libPods-Spexs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1183E55A7C465D8E8E43E3E7 /* libPods-Spexs.a */; };
+		45FF62971D7DEE7A00058C2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF62961D7DEE7A00058C2C /* main.m */; };
+		45FF629A1D7DEE7A00058C2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF62991D7DEE7A00058C2C /* AppDelegate.m */; };
+		45FF629D1D7DEE7A00058C2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF629C1D7DEE7A00058C2C /* ViewController.m */; };
+		45FF62A01D7DEE7A00058C2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FF629E1D7DEE7A00058C2C /* Main.storyboard */; };
+		45FF62A31D7DEE7A00058C2C /* Spexs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45FF62A11D7DEE7A00058C2C /* Spexs.xcdatamodeld */; };
+		45FF62A51D7DEE7A00058C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45FF62A41D7DEE7A00058C2C /* Assets.xcassets */; };
+		45FF62A81D7DEE7A00058C2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FF62A61D7DEE7A00058C2C /* LaunchScreen.storyboard */; };
+		45FF62B31D7DEE7A00058C2C /* SpexsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF62B21D7DEE7A00058C2C /* SpexsTests.m */; };
+		45FF62BE1D7DEE7A00058C2C /* SpexsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF62BD1D7DEE7A00058C2C /* SpexsUITests.m */; };
+		45FF62D51D7E700300058C2C /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF62D41D7E700300058C2C /* SearchViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45FF62AF1D7DEE7A00058C2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FF628A1D7DEE7900058C2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45FF62911D7DEE7900058C2C;
+			remoteInfo = Spexs;
+		};
+		45FF62BA1D7DEE7A00058C2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FF628A1D7DEE7900058C2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45FF62911D7DEE7900058C2C;
+			remoteInfo = Spexs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1183E55A7C465D8E8E43E3E7 /* libPods-Spexs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Spexs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8F65A312EA37D729A9B39F /* Pods-Spexs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spexs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spexs/Pods-Spexs.debug.xcconfig"; sourceTree = "<group>"; };
+		45FF62921D7DEE7A00058C2C /* Spexs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spexs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FF62961D7DEE7A00058C2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45FF62981D7DEE7A00058C2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45FF62991D7DEE7A00058C2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45FF629B1D7DEE7A00058C2C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45FF629C1D7DEE7A00058C2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45FF629F1D7DEE7A00058C2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45FF62A21D7DEE7A00058C2C /* Spexs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spexs.xcdatamodel; sourceTree = "<group>"; };
+		45FF62A41D7DEE7A00058C2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45FF62A71D7DEE7A00058C2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45FF62A91D7DEE7A00058C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FF62AE1D7DEE7A00058C2C /* SpexsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpexsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FF62B21D7DEE7A00058C2C /* SpexsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpexsTests.m; sourceTree = "<group>"; };
+		45FF62B41D7DEE7A00058C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FF62B91D7DEE7A00058C2C /* SpexsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpexsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FF62BD1D7DEE7A00058C2C /* SpexsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpexsUITests.m; sourceTree = "<group>"; };
+		45FF62BF1D7DEE7A00058C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FF62D31D7E700300058C2C /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		45FF62D41D7E700300058C2C /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		C234DA4282521341ABF00728 /* Pods-Spexs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spexs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spexs/Pods-Spexs.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45FF628F1D7DEE7900058C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F1672D647D3BBCF4EAE6B0 /* libPods-Spexs.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FF62AB1D7DEE7A00058C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FF62B61D7DEE7A00058C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45FF62891D7DEE7900058C2C = {
+			isa = PBXGroup;
+			children = (
+				45FF62941D7DEE7A00058C2C /* Spexs */,
+				45FF62B11D7DEE7A00058C2C /* SpexsTests */,
+				45FF62BC1D7DEE7A00058C2C /* SpexsUITests */,
+				45FF62931D7DEE7A00058C2C /* Products */,
+				8A99BE3ECDB8FFD896AC9903 /* Pods */,
+				534DE7DBCA3236EDE7B0093D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45FF62931D7DEE7A00058C2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45FF62921D7DEE7A00058C2C /* Spexs.app */,
+				45FF62AE1D7DEE7A00058C2C /* SpexsTests.xctest */,
+				45FF62B91D7DEE7A00058C2C /* SpexsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45FF62941D7DEE7A00058C2C /* Spexs */ = {
+			isa = PBXGroup;
+			children = (
+				45FF62981D7DEE7A00058C2C /* AppDelegate.h */,
+				45FF62991D7DEE7A00058C2C /* AppDelegate.m */,
+				45FF62D21D7E4F9100058C2C /* Model */,
+				45FF62D11D7E4F7100058C2C /* View */,
+				45FF62CB1D7E4EA800058C2C /* Controller */,
+				45FF629E1D7DEE7A00058C2C /* Main.storyboard */,
+				45FF62A41D7DEE7A00058C2C /* Assets.xcassets */,
+				45FF62A61D7DEE7A00058C2C /* LaunchScreen.storyboard */,
+				45FF62A91D7DEE7A00058C2C /* Info.plist */,
+				45FF62A11D7DEE7A00058C2C /* Spexs.xcdatamodeld */,
+				45FF62951D7DEE7A00058C2C /* Supporting Files */,
+			);
+			path = Spexs;
+			sourceTree = "<group>";
+		};
+		45FF62951D7DEE7A00058C2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45FF62961D7DEE7A00058C2C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45FF62B11D7DEE7A00058C2C /* SpexsTests */ = {
+			isa = PBXGroup;
+			children = (
+				45FF62B21D7DEE7A00058C2C /* SpexsTests.m */,
+				45FF62B41D7DEE7A00058C2C /* Info.plist */,
+			);
+			path = SpexsTests;
+			sourceTree = "<group>";
+		};
+		45FF62BC1D7DEE7A00058C2C /* SpexsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45FF62BD1D7DEE7A00058C2C /* SpexsUITests.m */,
+				45FF62BF1D7DEE7A00058C2C /* Info.plist */,
+			);
+			path = SpexsUITests;
+			sourceTree = "<group>";
+		};
+		45FF62CB1D7E4EA800058C2C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				45FF629B1D7DEE7A00058C2C /* ViewController.h */,
+				45FF629C1D7DEE7A00058C2C /* ViewController.m */,
+				45FF62D31D7E700300058C2C /* SearchViewController.h */,
+				45FF62D41D7E700300058C2C /* SearchViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		45FF62D11D7E4F7100058C2C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		45FF62D21D7E4F9100058C2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		534DE7DBCA3236EDE7B0093D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1183E55A7C465D8E8E43E3E7 /* libPods-Spexs.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A99BE3ECDB8FFD896AC9903 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C8F65A312EA37D729A9B39F /* Pods-Spexs.debug.xcconfig */,
+				C234DA4282521341ABF00728 /* Pods-Spexs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45FF62911D7DEE7900058C2C /* Spexs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FF62C21D7DEE7A00058C2C /* Build configuration list for PBXNativeTarget "Spexs" */;
+			buildPhases = (
+				F34571ABD80A139D15A2C970 /* [CP] Check Pods Manifest.lock */,
+				45FF628E1D7DEE7900058C2C /* Sources */,
+				45FF628F1D7DEE7900058C2C /* Frameworks */,
+				45FF62901D7DEE7900058C2C /* Resources */,
+				FDA76DB6352E810860B54E7B /* [CP] Embed Pods Frameworks */,
+				C27EEE3E21C2F4C3EF2189A9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spexs;
+			productName = Spexs;
+			productReference = 45FF62921D7DEE7A00058C2C /* Spexs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45FF62AD1D7DEE7A00058C2C /* SpexsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FF62C51D7DEE7A00058C2C /* Build configuration list for PBXNativeTarget "SpexsTests" */;
+			buildPhases = (
+				45FF62AA1D7DEE7A00058C2C /* Sources */,
+				45FF62AB1D7DEE7A00058C2C /* Frameworks */,
+				45FF62AC1D7DEE7A00058C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45FF62B01D7DEE7A00058C2C /* PBXTargetDependency */,
+			);
+			name = SpexsTests;
+			productName = SpexsTests;
+			productReference = 45FF62AE1D7DEE7A00058C2C /* SpexsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45FF62B81D7DEE7A00058C2C /* SpexsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FF62C81D7DEE7A00058C2C /* Build configuration list for PBXNativeTarget "SpexsUITests" */;
+			buildPhases = (
+				45FF62B51D7DEE7A00058C2C /* Sources */,
+				45FF62B61D7DEE7A00058C2C /* Frameworks */,
+				45FF62B71D7DEE7A00058C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45FF62BB1D7DEE7A00058C2C /* PBXTargetDependency */,
+			);
+			name = SpexsUITests;
+			productName = SpexsUITests;
+			productReference = 45FF62B91D7DEE7A00058C2C /* SpexsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45FF628A1D7DEE7900058C2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Elisha J Marshall III";
+				TargetAttributes = {
+					45FF62911D7DEE7900058C2C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3VCK6E2A76;
+					};
+					45FF62AD1D7DEE7A00058C2C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 45FF62911D7DEE7900058C2C;
+					};
+					45FF62B81D7DEE7A00058C2C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 45FF62911D7DEE7900058C2C;
+					};
+				};
+			};
+			buildConfigurationList = 45FF628D1D7DEE7900058C2C /* Build configuration list for PBXProject "Spexs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45FF62891D7DEE7900058C2C;
+			productRefGroup = 45FF62931D7DEE7A00058C2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45FF62911D7DEE7900058C2C /* Spexs */,
+				45FF62AD1D7DEE7A00058C2C /* SpexsTests */,
+				45FF62B81D7DEE7A00058C2C /* SpexsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45FF62901D7DEE7900058C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FF62A81D7DEE7A00058C2C /* LaunchScreen.storyboard in Resources */,
+				45FF62A51D7DEE7A00058C2C /* Assets.xcassets in Resources */,
+				45FF62A01D7DEE7A00058C2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FF62AC1D7DEE7A00058C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FF62B71D7DEE7A00058C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C27EEE3E21C2F4C3EF2189A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spexs/Pods-Spexs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F34571ABD80A139D15A2C970 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDA76DB6352E810860B54E7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spexs/Pods-Spexs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45FF628E1D7DEE7900058C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FF629D1D7DEE7A00058C2C /* ViewController.m in Sources */,
+				45FF62A31D7DEE7A00058C2C /* Spexs.xcdatamodeld in Sources */,
+				45FF62D51D7E700300058C2C /* SearchViewController.m in Sources */,
+				45FF629A1D7DEE7A00058C2C /* AppDelegate.m in Sources */,
+				45FF62971D7DEE7A00058C2C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FF62AA1D7DEE7A00058C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FF62B31D7DEE7A00058C2C /* SpexsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FF62B51D7DEE7A00058C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FF62BE1D7DEE7A00058C2C /* SpexsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45FF62B01D7DEE7A00058C2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45FF62911D7DEE7900058C2C /* Spexs */;
+			targetProxy = 45FF62AF1D7DEE7A00058C2C /* PBXContainerItemProxy */;
+		};
+		45FF62BB1D7DEE7A00058C2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45FF62911D7DEE7900058C2C /* Spexs */;
+			targetProxy = 45FF62BA1D7DEE7A00058C2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45FF629E1D7DEE7A00058C2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FF629F1D7DEE7A00058C2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45FF62A61D7DEE7A00058C2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FF62A71D7DEE7A00058C2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45FF62C01D7DEE7A00058C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45FF62C11D7DEE7A00058C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45FF62C31D7DEE7A00058C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8F65A312EA37D729A9B39F /* Pods-Spexs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Spexs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elimar.Spexs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		45FF62C41D7DEE7A00058C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C234DA4282521341ABF00728 /* Pods-Spexs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Spexs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elimar.Spexs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		45FF62C61D7DEE7A00058C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpexsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elimar.SpexsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spexs.app/Spexs";
+			};
+			name = Debug;
+		};
+		45FF62C71D7DEE7A00058C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpexsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elimar.SpexsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spexs.app/Spexs";
+			};
+			name = Release;
+		};
+		45FF62C91D7DEE7A00058C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpexsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elimar.SpexsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Spexs;
+			};
+			name = Debug;
+		};
+		45FF62CA1D7DEE7A00058C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpexsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elimar.SpexsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Spexs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45FF628D1D7DEE7900058C2C /* Build configuration list for PBXProject "Spexs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FF62C01D7DEE7A00058C2C /* Debug */,
+				45FF62C11D7DEE7A00058C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FF62C21D7DEE7A00058C2C /* Build configuration list for PBXNativeTarget "Spexs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FF62C31D7DEE7A00058C2C /* Debug */,
+				45FF62C41D7DEE7A00058C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FF62C51D7DEE7A00058C2C /* Build configuration list for PBXNativeTarget "SpexsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FF62C61D7DEE7A00058C2C /* Debug */,
+				45FF62C71D7DEE7A00058C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FF62C81D7DEE7A00058C2C /* Build configuration list for PBXNativeTarget "SpexsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FF62C91D7DEE7A00058C2C /* Debug */,
+				45FF62CA1D7DEE7A00058C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		45FF62A11D7DEE7A00058C2C /* Spexs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45FF62A21D7DEE7A00058C2C /* Spexs.xcdatamodel */,
+			);
+			currentVersion = 45FF62A21D7DEE7A00058C2C /* Spexs.xcdatamodel */;
+			path = Spexs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45FF628A1D7DEE7900058C2C /* Project object */;
+}
